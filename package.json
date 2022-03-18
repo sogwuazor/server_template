@@ -1,0 +1,26 @@
+{
+  "name": "server_template",
+  "version": "1.0.0",
+  "description": "My custom server template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "template"
+  ],
+  "author": "unassailent",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "requirejs": "^2.3.6",
+    "socket.io": "^4.4.1"
+  }
+}

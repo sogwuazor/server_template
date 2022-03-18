@@ -1,0 +1,22 @@
+{
+  "environment": {
+    "local": {
+      "connectionString": "mongodb://localhost:27017/",
+      "dbName": "base_server",
+      "timeout": 600000,
+      "cors": [
+        "http://localhost:3000",
+        "http://localhost:4200"
+      ]
+    },
+    "production": {
+      "connectionString": "mongodb://test:testing12@ds143039.mlab.com:43039/",
+      "dbName": "base_server",
+      "timeout": 600000,
+      "cors": [
+        "http://localhost:3000",
+        "http://localhost:4200"
+      ]
+    }
+  }
+}
